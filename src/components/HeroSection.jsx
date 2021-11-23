@@ -7,7 +7,6 @@ import PText from "./PText";
 const HeroStyles = styled.div`
   .hero {
     height: 100vh;
-    min-height: 1000px;
     width: 100%;
     text-align: center;
     display: flex;
@@ -17,7 +16,7 @@ const HeroStyles = styled.div`
   }
   .hero__heading {
     font-size: 2rem;
-    margin-bottom: -4rem;
+    margin-bottom: 5rem;
     position: relative;
     z-index: 1;
     span {
@@ -35,13 +34,7 @@ const HeroStyles = styled.div`
     width: 100%;
     height: 600px;
     margin: 0 auto;
-    border: 2px solid var(--gray-1);
     position: relative;
-  }
-  .hero__info {
-    position: absolute;
-    top: 60%;
-    right: 33.5%;
   }
   .hero__info .para {
     max-width: 300px;
@@ -159,15 +152,12 @@ export default function HeroSection() {
             <span>Hello, I am</span>
             <span className="hero__name">Illia Khirilov</span>
           </h1>
-          <div className="hero__img">
-            <img src={HeroImg} alt="Illia Khirilov" />
-            <div className="hero__info">
-              <PText>
-                I am a frontend developer from Vinnitsya, Ukraine. I love what I
-                do and always do my best to create websites.
-              </PText>
-              <Button btnText="see my works" btnLink="/projects" />
-            </div>
+          <div className="hero__info">
+            <PText>
+              I am a frontend developer from Vinnitsya, Ukraine. I love what I
+              do and always do my best to create websites.
+            </PText>
+            <Button btnText="see my works" btnLink="/projects" />
           </div>
         </div>
       </div>
