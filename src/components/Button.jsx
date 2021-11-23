@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const ButtonStyle = styled.div`
   margin-top: 2rem;
@@ -33,9 +33,9 @@ export default function Button({
           {btnText}
         </a>
       ) : (
-        <Link className="button" to={btnLink}>
+        <NavLink className="button" to={btnLink}>
           {btnText}
-        </Link>
+        </NavLink>
       )}
     </ButtonStyle>
   );
