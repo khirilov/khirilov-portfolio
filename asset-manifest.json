@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.js": "/khirilov-portfolio/static/js/main.9c5a001c.chunk.js",
+    "main.js.map": "/khirilov-portfolio/static/js/main.9c5a001c.chunk.js.map",
+    "runtime-main.js": "/khirilov-portfolio/static/js/runtime-main.b67bae29.js",
+    "runtime-main.js.map": "/khirilov-portfolio/static/js/runtime-main.b67bae29.js.map",
+    "static/css/2.579717b5.chunk.css": "/khirilov-portfolio/static/css/2.579717b5.chunk.css",
+    "static/js/2.89548358.chunk.js": "/khirilov-portfolio/static/js/2.89548358.chunk.js",
+    "static/js/2.89548358.chunk.js.map": "/khirilov-portfolio/static/js/2.89548358.chunk.js.map",
+    "index.html": "/khirilov-portfolio/index.html",
+    "static/css/2.579717b5.chunk.css.map": "/khirilov-portfolio/static/css/2.579717b5.chunk.css.map",
+    "static/js/2.89548358.chunk.js.LICENSE.txt": "/khirilov-portfolio/static/js/2.89548358.chunk.js.LICENSE.txt",
+    "static/media/about-page.adc81cb4.png": "/khirilov-portfolio/static/media/about-page.adc81cb4.png",
+    "static/media/about-sec-img.0478b428.jpg": "/khirilov-portfolio/static/media/about-sec-img.0478b428.jpg",
+    "static/media/aim.715682de.jpg": "/khirilov-portfolio/static/media/aim.715682de.jpg",
+    "static/media/hero.9fb8ce67.jpg": "/khirilov-portfolio/static/media/hero.9fb8ce67.jpg",
+    "static/media/movies.8991af8c.jpg": "/khirilov-portfolio/static/media/movies.8991af8c.jpg",
+    "static/media/practice.4ba85a87.jpg": "/khirilov-portfolio/static/media/practice.4ba85a87.jpg",
+    "static/media/recipes.a3c7e70b.jpg": "/khirilov-portfolio/static/media/recipes.a3c7e70b.jpg",
+    "static/media/shop.4c02c0e3.jpg": "/khirilov-portfolio/static/media/shop.4c02c0e3.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b67bae29.js",
+    "static/css/2.579717b5.chunk.css",
+    "static/js/2.89548358.chunk.js",
+    "static/js/main.9c5a001c.chunk.js"
+  ]
+}
