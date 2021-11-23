@@ -26,7 +26,7 @@ export default function Button({
 }) {
   return (
     <ButtonStyle outline={outline} className="button-wrapper">
-      <a className="button" href={btnLink}>
+      <a className="button" href={`/khirilov-portfolio${btnLink}`}>
         {btnText}
       </a>
     </ButtonStyle>
