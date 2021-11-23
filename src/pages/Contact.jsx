@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import { MdEmail, MdLocalPhone } from "react-icons/md";
-import ContactForm from "../components/ContactForm";
+import { FaTelegramPlane, FaInstagram, FaLinkedinIn } from "react-icons/fa";
 import ContactInfoItem from "../components/ContactInfoItem";
 import SectionTitle from "../components/SectionTitle";
 
@@ -62,7 +62,21 @@ export default function Contact() {
             <ContactInfoItem text="Vinnitsya, Ukraine" />
           </div>
           <div className="right">
-            <ContactForm />
+            <ContactInfoItem
+              icon={<FaTelegramPlane />}
+              text="@illushafun"
+              link="https://t.me/illushafun"
+            />
+            <ContactInfoItem
+              icon={<FaInstagram />}
+              text="@illushafun"
+              link="https://www.instagram.com/illushafun/"
+            />
+            <ContactInfoItem
+              icon={<FaLinkedinIn />}
+              text="Illia Khirilov"
+              link="https://www.linkedin.com/in/illia-khirilov-207ab7195/"
+            />
           </div>
         </div>
       </div>

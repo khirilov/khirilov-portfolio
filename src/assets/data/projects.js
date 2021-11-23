@@ -44,7 +44,7 @@ const projects = [
     desc:
       'Practice some things in React',
     img: PracticeImg,
-    link: '#'
+    link: 'https://khirilov.github.io/ReactPractice/'
   },
 ];
 
