@@ -100,8 +100,7 @@ export default function About() {
                   to local courses and started learning Html and CSS. Then I
                   bought JavaScript courses at Udemy and started learning.
                   <br />
-                  <br />
-                  Nowadays, I watched tons of videos and read hundreds articles
+                  <br />I have watched tons of videos and read hundreds articles
                   about code: how do some things work, how make your code
                   faster, readable and reusable, how to make yourself patient
                   and continue coding even than you are sick of tired about it
@@ -110,8 +109,7 @@ export default function About() {
               </div>
               <Button
                 btnText="Download CV"
-                btnLink="illia-khirilov-cv.pdf"
-                download={true}
+                btnLink="https://drive.google.com/drive/folders/1WFYUHBCVa87Niv8tiu16ScXojGGP6ooV?usp=sharing"
               />
             </div>
             <div className="right">

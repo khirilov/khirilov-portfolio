@@ -23,15 +23,10 @@ export default function Button({
   btnText = "test",
   btnLink = "test",
   outline = false,
-  download = false,
 }) {
   return (
     <ButtonStyle outline={outline} className="button-wrapper">
-      <a
-        className="button"
-        href={`/khirilov-portfolio${btnLink}`}
-        download={download}
-      >
+      <a className="button" href={btnLink}>
         {btnText}
       </a>
     </ButtonStyle>
