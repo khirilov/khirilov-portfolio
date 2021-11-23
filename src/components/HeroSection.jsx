@@ -37,7 +37,7 @@ const HeroStyles = styled.div`
     position: relative;
   }
   .hero__info .para {
-    max-width: 300px;
+    max-width: 400px;
   }
   .hero__social,
   .hero__scrollDown {
