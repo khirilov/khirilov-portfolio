@@ -99,7 +99,6 @@ const HeroStyles = styled.div`
     }
     .hero__heading {
       font-size: 1.8rem;
-      margin-bottom: -3rem;
       .hero__name {
         font-size: 4.5rem;
       }
@@ -114,7 +113,7 @@ const HeroStyles = styled.div`
       margin-top: 3rem;
     }
     .hero__info .para {
-      max-width: 80vw;
+      max-width: 70vw;
     }
     .hero__social {
       left: 0px;
