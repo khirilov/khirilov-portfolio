@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.js": "/khirilov-portfolio/static/js/main.dfae54a6.chunk.js",
-    "main.js.map": "/khirilov-portfolio/static/js/main.dfae54a6.chunk.js.map",
+    "main.js": "/khirilov-portfolio/static/js/main.f22f6aa3.chunk.js",
+    "main.js.map": "/khirilov-portfolio/static/js/main.f22f6aa3.chunk.js.map",
     "runtime-main.js": "/khirilov-portfolio/static/js/runtime-main.b67bae29.js",
     "runtime-main.js.map": "/khirilov-portfolio/static/js/runtime-main.b67bae29.js.map",
     "static/css/2.579717b5.chunk.css": "/khirilov-portfolio/static/css/2.579717b5.chunk.css",
-    "static/js/2.89548358.chunk.js": "/khirilov-portfolio/static/js/2.89548358.chunk.js",
-    "static/js/2.89548358.chunk.js.map": "/khirilov-portfolio/static/js/2.89548358.chunk.js.map",
+    "static/js/2.ee050984.chunk.js": "/khirilov-portfolio/static/js/2.ee050984.chunk.js",
+    "static/js/2.ee050984.chunk.js.map": "/khirilov-portfolio/static/js/2.ee050984.chunk.js.map",
     "index.html": "/khirilov-portfolio/index.html",
     "static/css/2.579717b5.chunk.css.map": "/khirilov-portfolio/static/css/2.579717b5.chunk.css.map",
-    "static/js/2.89548358.chunk.js.LICENSE.txt": "/khirilov-portfolio/static/js/2.89548358.chunk.js.LICENSE.txt",
+    "static/js/2.ee050984.chunk.js.LICENSE.txt": "/khirilov-portfolio/static/js/2.ee050984.chunk.js.LICENSE.txt",
     "static/media/about-page.adc81cb4.png": "/khirilov-portfolio/static/media/about-page.adc81cb4.png",
     "static/media/about-sec-img.0478b428.jpg": "/khirilov-portfolio/static/media/about-sec-img.0478b428.jpg",
     "static/media/aim.715682de.jpg": "/khirilov-portfolio/static/media/aim.715682de.jpg",
@@ -22,7 +22,7 @@
   "entrypoints": [
     "static/js/runtime-main.b67bae29.js",
     "static/css/2.579717b5.chunk.css",
-    "static/js/2.89548358.chunk.js",
-    "static/js/main.dfae54a6.chunk.js"
+    "static/js/2.ee050984.chunk.js",
+    "static/js/main.f22f6aa3.chunk.js"
   ]
 }
