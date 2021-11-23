@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { Link } from "react-router-dom";
 
 const ButtonStyle = styled.div`
   margin-top: 2rem;
@@ -23,12 +24,19 @@ export default function Button({
   btnText = "test",
   btnLink = "test",
   outline = false,
+  link,
 }) {
   return (
     <ButtonStyle outline={outline} className="button-wrapper">
-      <a className="button" href={`/khirilov-portfolio${btnLink}`}>
-        {btnText}
-      </a>
+      {link ? (
+        <a className="button" href={btnLink}>
+          {btnText}
+        </a>
+      ) : (
+        <Link className="button" to={btnLink}>
+          {btnText}
+        </Link>
+      )}
     </ButtonStyle>
   );
 }

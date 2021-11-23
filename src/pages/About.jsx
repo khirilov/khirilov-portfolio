@@ -110,6 +110,7 @@ export default function About() {
               <Button
                 btnText="Download CV"
                 btnLink="https://drive.google.com/drive/folders/1WFYUHBCVa87Niv8tiu16ScXojGGP6ooV?usp=sharing"
+                link={true}
               />
             </div>
             <div className="right">
