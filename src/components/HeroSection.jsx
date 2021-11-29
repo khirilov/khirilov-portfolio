@@ -143,7 +143,7 @@ const HeroStyles = styled.div`
 
 export default function HeroSection() {
   let i = 0;
-  let txt = 'A frontend developer from Vinntsya, Ukraine. My eyes are lighting up on a sweet projects.';
+  let txt = 'A frontend developer from Vinnytsia, Ukraine. My eyes are lighting up on a sweet projects.';
   const [infoText, setInfoText] = useState('');
   let newText = '';
   useEffect(() => {
