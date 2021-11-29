@@ -1,6 +1,5 @@
-import React from "react";
+import {useState, useEffect} from "react";
 import styled from "styled-components";
-import HeroImg from "../assets/images/hero.jpg";
 import Button from "./Button";
 import PText from "./PText";
 
@@ -143,6 +142,23 @@ const HeroStyles = styled.div`
 `;
 
 export default function HeroSection() {
+  let i = 0;
+  let txt = 'A frontend developer from Vinntsya, Ukraine. My eyes are lighting up on a sweet projects.';
+  const [infoText, setInfoText] = useState('');
+  let newText = '';
+  useEffect(() => {
+    typeWriter()
+  },[])
+
+  function typeWriter() {
+    if (i < txt.length) {
+      newText += txt.charAt(i)
+      setInfoText(newText)
+      i++;
+      setTimeout(typeWriter, 50);
+    }
+  }
+
   return (
     <HeroStyles>
       <div className="hero">
@@ -153,8 +169,7 @@ export default function HeroSection() {
           </h1>
           <div className="hero__info">
             <PText>
-              I am a frontend developer from Vinnitsya, Ukraine. I love what I
-              do and always do my best to create websites.
+              {infoText}
             </PText>
             <Button btnText="see my works" btnLink="/projects" />
           </div>
